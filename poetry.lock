@@ -1,0 +1,20 @@
+[[package]]
+name = "some-dependency"
+version = "1.0.0"
+description = "an empty python package to be used as a dummy dependency"
+category = "main"
+optional = false
+python-versions = ">=3.8,<3.9"
+
+[package.source]
+type = "legacy"
+url = "https://christopherfrieler.github.io/renovate-issue-12003"
+reference = "my-package-index"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "~3.8"
+content-hash = "f890929e77eb0860476d3f081de26ec7e1e2f79c95247df19570e17c360dd792"
+
+[metadata.files]
+some-dependency = []

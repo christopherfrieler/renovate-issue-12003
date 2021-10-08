@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "project-to-renovate"
+version = "0.1.0.dev0"
+description = "a poetry project to reproduce issue 12003 when using renovate bot"
+authors = ["Christopher Frieler, <christopher.frieler@dm.de>"]
+repository = "https://github.com/christopherfrieler/renovate-issue-12003"
+
+[tool.poetry.dependencies]
+python = "~3.8"
+some_dependency = { version = "1.0.0", source = "my-package-index" }
+
+[build-system]
+requires = ["poetry>=1.1"]
+build-backend = "poetry.masonry.api"
+
+[[tool.poetry.source]]
+name = "my-package-index"
+url = "https://christopherfrieler.github.io/renovate-issue-12003/"
+secondary = true
