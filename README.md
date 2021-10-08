@@ -8,3 +8,5 @@ The `project_to_renovate` in this repo is a Python project managed by [Poetry](h
 It depends on the module `some_dependency` from the custom package index.
 Note that the package index is defined as a secondary repository,
 which is explicitly specified as the `source` of the dependency in the [pyproject.toml](pyproject.toml).
+
+There's a github actions workflow to run renovate bot on this repository, which can be triggered manually.
