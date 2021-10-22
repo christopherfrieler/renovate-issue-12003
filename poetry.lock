@@ -1,6 +1,6 @@
 [[package]]
 name = "some-dependency"
-version = "1.0.0"
+version = "1.1.0"
 description = "an empty python package to be used as a dummy dependency"
 category = "main"
 optional = false
@@ -14,7 +14,7 @@ reference = "my-package-index"
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.8"
-content-hash = "f890929e77eb0860476d3f081de26ec7e1e2f79c95247df19570e17c360dd792"
+content-hash = "b1d043f559720f5c35bb29538c52b6dcff8a1f02cc406aa3d069edd280743fad"
 
 [metadata.files]
 some-dependency = []
